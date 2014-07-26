@@ -27,6 +27,7 @@ For more details on authoring R presentations click the
 
 Slide With Code
 ========================================================
+transition: linear
 
 
 ```r
@@ -45,5 +46,6 @@ summary(cars)
 
 Slide With Plot
 ========================================================
+transition: linear
 
 ![plot of chunk unnamed-chunk-2](Presentation-figure/unnamed-chunk-2.png) 
