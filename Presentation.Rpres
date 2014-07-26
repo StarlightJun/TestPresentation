@@ -1,0 +1,40 @@
+R Studio Presenter
+===
+author: HyoJung, Kim2
+date: `r Sys.setlocale(category = "LC_ALL", locale = "C");format(Sys.Date(), format="%B %d %Y")`
+transition: rotate  
+
+<small>
+Students
+Coursera Datascience specialization
+</small>
+
+R Studio Presentation
+=== 
+<small>
+- RStudio created a presentation authoring tool within their development environment
+- If you are familiar with slidify, you will also be familiar with this tool.
+   - Code is authored in a generalized markdown format that allows for code chunks
+   - The output is an html5 presentation
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Bullet 1 : $X^2$
+- Bullet 2
+- Bullet 3 
+
+</small>
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
